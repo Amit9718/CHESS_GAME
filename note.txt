@@ -1,0 +1,9 @@
+Package required -> 
+   npm init -y 
+   npm i express chess.js ejs socket.io
+
+socket basically real time connected  jo server and frontend pe set karna chaiye fir kam karega ..
+Socket work ---->
+1. single chat matlab one user and one user chat like one user kuch message send  karega server ko and server usi message ko dusre bande forward karega 
+2. group chat matlab one user jo bhi message karega server usi message ko sabko forward kar dega include me eg:-> whatsapp group chat
+3. ek banda server ko message kiya hai and server usi bande ko chorke or sabko us message forward karge , eg:-> group chat mein kohi banda kohi bhi message karega usi ko typing nehi dekhiyega but others side or bande ko dekhage ga typing karke .... Is concept ko humne broadcasting kahte hai
