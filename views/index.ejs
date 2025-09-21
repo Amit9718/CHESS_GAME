@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <script src="https://cdn.tailwindcss.com"></script>   
  <style>
+        /* Basic utility classes instead of Tailwind CDN */
+        .w-full { width: 100%; }
+        .h-screen { height: 100vh; }
+        .flex { display: flex; }
+        .items-center { align-items: center; }
+        .justify-center { justify-content: center; }
+        .bg-zinc-900 { background-color: #18181b; }
+        .w-96 { width: 24rem; }
+        .h-96 { height: 24rem; }
+        
+        /* Chess-specific styles */
         .chessboard {
             display: grid;
             grid-template-columns: repeat(8, minmax(0, 1fr));
